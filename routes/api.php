@@ -19,3 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('mac_lookup/{query}', 'OuiDataController@SingleMACLookup');
+Route::post('multi_mac_lookup', 'OuiDataController@MultipleMACLookup');

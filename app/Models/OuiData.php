@@ -17,8 +17,8 @@ class OuiData extends Model
     protected $fillable = [
         'registry',
         'assignment',
-        'organisation_name',
-        'organisation_address',
+        'organization_name',
+        'organization_address',
     ];
 
 }

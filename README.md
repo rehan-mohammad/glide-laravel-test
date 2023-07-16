@@ -37,7 +37,8 @@ No specific formatting required for querying a MAC address, as the API will stri
 `api/mac_lookup/00-B0-D0-63-C2-26`\
 \
 Response:
-```{
+```
+    {
         "mac_address": "00-B0-D0-63-C2-26",
         "vendor": "Dell Inc."
     }
